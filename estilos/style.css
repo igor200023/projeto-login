@@ -33,10 +33,8 @@ section#login {
     overflow: hidden;
 
     background-color: white;
-    width: 90vw;
-    max-width: 300px;
-    height: auto;
-    min-height: 500px;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
 
@@ -65,27 +63,4 @@ div#formulario > h1 {
 
 div#formulario > p {
     font-size: 0.8em;
-}
-
-.campo {
-    background-color: #eee; /* Um fundo para destacar o campo */
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    padding: 5px;
-}
-
-.campo > input {
-    background: none;
-    border: none;
-    outline: none;
-    width: 100%;
-    padding: 5px;
-}
-
-.campo label {
-    display: none; /* No mobile, o label lateral geralmente quebra o layout. 
-                      O placeholder já indica o que deve ser digitado. */
 }
