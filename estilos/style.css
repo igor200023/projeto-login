@@ -64,3 +64,15 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
+
+.campo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.campo label {
+    flex: 1; /* Permite que o label ocupe o espaço disponível */
+    margin-left: 10px; /* Espaçamento entre o ícone e o label */
+}
